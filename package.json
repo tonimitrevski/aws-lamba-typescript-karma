@@ -1,0 +1,28 @@
+{
+  "name": "aws-nodejs-typescript",
+  "version": "1.0.0",
+  "description": "Serverless webpack example using Typescript",
+  "main": "handler.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "0.0.22",
+    "@types/jasmine": "2.8.7",
+    "@types/node": "^8.0.57",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-typescript": "3.0.12",
+    "karma-jasmine": "^1.1.2",
+    "karma-jasmine-html-reporter": "^1.1.0",
+    "serverless-webpack": "^4.0.0",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.2",
+    "webpack": "^3.6.0"
+  },
+  "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
+  "license": "MIT"
+}
